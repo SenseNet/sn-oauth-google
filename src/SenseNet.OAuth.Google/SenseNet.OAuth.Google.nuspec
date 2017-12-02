@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>SenseNet.OAuth.Google</id>
+    <version>1.0.0</version>
+    <title>sensenet ECM OAuth provider for Google API</title>
+    <authors>kavics,aniko,laci,lajos,tusmester</authors>
+    <owners>Sense/Net</owners>
+    <licenseUrl>https://github.com/SenseNet/sn-oauth-google/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/SenseNet/sn-oauth-google</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/SenseNet/sn-resources/master/images/sn-icon/sensenet-icon-64.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Google API OAuth provider implementation for the sensenet ECM platform.</description>
+    <copyright>Copyright © Sense/Net Inc.</copyright>
+    <tags>sensenet ecm ecms oauth google</tags>
+    <dependencies>
+      <dependency id="SenseNet.Services" version="7.0.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\Release\SenseNet.OAuth.Google.*" target="lib\net451" />
+  </files>
+</package>
