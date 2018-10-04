@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
     <id>SenseNet.OAuth.Google.Install</id>
-    <version>1.0.0</version>
+    <version>1.1.0</version>
     <title>sensenet ECM Google OAuth provider installer</title>
     <authors>kavics,aniko,laci,lajos,tusmester</authors>
     <owners>Sense/Net</owners>
@@ -14,8 +14,8 @@
     <copyright>Copyright © Sense/Net Inc.</copyright>
     <tags>sensenet ecm ecms oauth google</tags>
     <dependencies>
-      <dependency id="SenseNet.Services.Install" version="7.0.0" />
-      <dependency id="SenseNet.OAuth.Google" version="1.0.0" />
+      <dependency id="SenseNet.Services.Install" version="7.4.0" />
+      <dependency id="SenseNet.OAuth.Google" version="1.1.0" />
       <dependency id="SenseNet.SnAdmin" version="1.4.3" />
     </dependencies>
   </metadata>

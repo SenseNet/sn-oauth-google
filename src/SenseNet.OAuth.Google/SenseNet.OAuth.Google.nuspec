@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
     <id>SenseNet.OAuth.Google</id>
-    <version>1.0.0</version>
+    <version>1.1.0</version>
     <title>sensenet ECM OAuth provider for Google API</title>
     <authors>kavics,aniko,laci,lajos,tusmester</authors>
     <owners>Sense/Net</owners>
@@ -14,10 +14,10 @@
     <copyright>Copyright © Sense/Net Inc.</copyright>
     <tags>sensenet ecm ecms oauth google</tags>
     <dependencies>
-      <dependency id="SenseNet.Services" version="7.0.0" />
+      <dependency id="SenseNet.Services" version="7.4.0" />
     </dependencies>
   </metadata>
   <files>
-    <file src="bin\Release\SenseNet.OAuth.Google.*" target="lib\net451" />
+    <file src="bin\Release\SenseNet.OAuth.Google.*" target="lib\net461" />
   </files>
 </package>

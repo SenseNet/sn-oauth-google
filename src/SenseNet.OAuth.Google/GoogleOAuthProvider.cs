@@ -37,7 +37,8 @@ namespace SenseNet.OAuth.Google
                 Identifier = userData.sub,
                 Email = userData.email,
                 Username = userData.sub,
-                FullName = userData.name
+                FullName = userData.name,
+                AvatarUrl = userData.picture
             };
 
             return userData.sub;
