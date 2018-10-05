@@ -5,7 +5,7 @@ namespace SenseNet.OAuth.Google
 {
     public class GoogleOAuthComponent : SnComponent
     {
-        public override string ComponentId => "SenseNet.OAuth.Google.Install";
+        public override string ComponentId => "SenseNet.OAuth.Google";
 
         // This value has to change if there were database, content
         // or configuration changes since the last release that
