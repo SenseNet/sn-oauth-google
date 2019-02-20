@@ -5,6 +5,11 @@ VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SenseNet.OAuth.Google", "SenseNet.OAuth.Google\SenseNet.OAuth.Google.csproj", "{94BD999E-119F-45BD-A9C2-E542D7DBAE9A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution items", "Solution items", "{08A234B1-F300-4780-8D7B-5696BDC12ECF}"
+	ProjectSection(SolutionItems) = preProject
+		nuget\snadmin\install-oauth-google\manifest.xml = nuget\snadmin\install-oauth-google\manifest.xml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
