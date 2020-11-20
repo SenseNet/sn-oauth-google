@@ -1,3 +1,11 @@
+# Legacy feature alert
+
+Please note that this is a legacy feature which is no longer supported on the latest (and greatest) sensenet version.
+
+> **sensenet as a service (SNaaS) - use sensenet from the cloud**
+> For a monthly subscription fee, we store all your content and data, relieving you of all maintenance-related tasks and installation, ensuring easy onboarding, easy updates, and patches.
+> https://www.sensenet.com/pricing
+
 # Google API OAuth provider for the sensenet platform
 
 In this repository you'll find a basic [sensenet](https://github.com/SenseNet/sensenet) OAuth provider implementation for Google API. It lets developers integrate [Google Sign-in](https://developers.google.com/identity/sign-in/web/sign-in) into their applications.
@@ -12,9 +20,3 @@ Additional user data can be synchronized from the 3rd party service (in this cas
 There is a corresponding **JavaScript** implementation that can be used in conjunction with this server-side plugin. It is advisable to install that too as it will speed up your development process on the client.
 
 - [Client-side Google OAuth provider](https://github.com/SenseNet/sn-client-auth-google)
-
-# sensenet as a service (SNaaS) - use sensenet from the cloud
-
-For a monthly subscription fee, we store all your content and data, relieving you of all maintenance-related tasks and installation, ensuring easy onboarding, easy updates, and patches.
-
-https://www.sensenet.com/pricing
